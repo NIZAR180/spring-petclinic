@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   tools {
-    maven 'Maven3'        // Le nom que tu as défini dans Jenkins (Manage Jenkins > Global Tool Configuration)
-    jdk 'JDK17'           // Si défini, sinon supprime cette ligne
+    maven 'Maven 3'        // Le nom que tu as défini dans Jenkins (Manage Jenkins > Global Tool Configuration)
+    jdk 'JDK 17'           // Si défini, sinon supprime cette ligne
   }
 
   environment {
